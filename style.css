@@ -30,10 +30,10 @@ body {
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
+  height: 100vh;
   /*Simplificando as configurações acima
   background: url(./assets/bg-mobile.jpg) no-repeat top center center/cover;*/
 }
-/*TIPOGRAFIA:*/
 body * {
   font-family: 'Inter', sans-serif;
   color:var(--text-color);
@@ -42,7 +42,7 @@ body * {
 
 #container {
   width: 100%;
-  max-width: 588px;
+  max-width: 350px;
   margin: 56px auto 0px;
   padding: 0 24px;
 }
@@ -52,7 +52,6 @@ body * {
   text-align: center;
   padding: 24px;
 }
-/*TAMANHO DA IMAGEM*/
 #profile img {
   width: 112px;
 }
@@ -150,4 +149,14 @@ footer {
   padding: 24px 0;
   text-align: center;
   font-size: 12px;
+}
+
+
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(./assets/bg-desktop.jpg);
+  }
+  .light {
+    --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
 }
