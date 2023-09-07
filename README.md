@@ -25,7 +25,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O "Meus Links" é um agregador de links para ser usado como cartão de visitas.
+O seguinte projeto é um agregador de links para ser usado como cartão de visitas.
 
 ## 🔖 Layout
 
